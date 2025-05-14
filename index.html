@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <title>Integración Khipu (Prueba)</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <h1>Pago de prueba con Khipu</h1>
+  <form id="payment-form">
+    <label>Nombre del comprador:
+      <input type="text" id="payer-name" required />
+    </label><br><br>
+    <label>Monto (CLP):
+      <input type="number" id="amount" required />
+    </label><br><br>
+    <button type="submit">Generar pago</button>
+  </form>
+  <pre id="response"></pre>
+
+  <script src="script.js"></script>
+</body>
+</html>
