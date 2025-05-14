@@ -1,0 +1,21 @@
+body {
+  font-family: sans-serif;
+  margin: 2em;
+  background-color: #f9f9f9;
+}
+
+label {
+  display: block;
+  margin-bottom: 1em;
+}
+
+button {
+  padding: 0.5em 1em;
+}
+
+pre {
+  background-color: #f0f0f0;
+  padding: 1em;
+  border: 1px solid #ccc;
+  margin-top: 1em;
+}
